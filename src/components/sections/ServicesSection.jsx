@@ -1,6 +1,7 @@
 import Grid from '../ui/Grid';
 import SectionTitle from '../ui/SectionTitle';
 
+// iskelti i atskira komponenta
 function ServiceCard({ title, icon }) {
   return (
     <div className='service-card'>
