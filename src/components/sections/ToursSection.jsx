@@ -1,5 +1,14 @@
 import Card from '../Card';
 
+function SectionTitle(props) {
+  return (
+    <>
+      <h2 className='section__title'>{props.title}</h2>
+      <p className='section__subtitle'>{props.subTitle}</p>
+    </>
+  );
+}
+
 export default function ToursSection() {
   const mainTitle = 'Turo datos';
 
@@ -24,8 +33,12 @@ export default function ToursSection() {
   return (
     <section className='bands-section'>
       <div className='container'>
-        <h2 className='section__title'>{mainTitle}</h2>
-        <p className='section__subtitle'>Remember to book your tickets!</p>
+        <SectionTitle
+          title={mainTitle}
+          subTitle='Remember to book your tickets!'
+        />
+        {/* <h2 className='section__title'>{mainTitle}</h2>
+        <p className='section__subtitle'>Remember to book your tickets!</p> */}
 
         <ul className='unlisted grid'>
           <Card cardData={cards[0]} />
