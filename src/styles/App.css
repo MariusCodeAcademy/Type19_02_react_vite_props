@@ -1,3 +1,7 @@
+body {
+  padding-bottom: 500px;
+}
+
 /* headeris */
 
 .logo {
@@ -45,6 +49,21 @@
   display: grid;
   grid-template-columns: repeat(3, 2fr);
   gap: 1rem;
+}
+.grid-1 {
+  grid-template-columns: repeat(1, 2fr);
+}
+.grid-2 {
+  grid-template-columns: repeat(2, 2fr);
+}
+.grid-3 {
+  grid-template-columns: repeat(3, 2fr);
+}
+.grid-4 {
+  grid-template-columns: repeat(4, 2fr);
+}
+.grid-5 {
+  grid-template-columns: repeat(5, 2fr);
 }
 
 /* card */
