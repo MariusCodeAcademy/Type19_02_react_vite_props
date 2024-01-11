@@ -1,13 +1,5 @@
 import Card from '../Card';
-
-function SectionTitle(props) {
-  return (
-    <>
-      <h2 className='section__title'>{props.title}</h2>
-      <p className='section__subtitle'>{props.subTitle}</p>
-    </>
-  );
-}
+import SectionTitle from '../ui/SectionTitle';
 
 export default function ToursSection() {
   const mainTitle = 'Turo datos';

@@ -11,7 +11,7 @@ function App() {
     <div className='App'>
       <Header />
       <ToursSection />
-      {/* <ProjectsSection /> */}
+      <ProjectsSection />
     </div>
   );
 }
