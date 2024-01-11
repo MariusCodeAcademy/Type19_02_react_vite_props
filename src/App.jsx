@@ -1,7 +1,15 @@
+import './styles/App.css';
+import './styles/responsive.css';
+import Header from './components/layout/Header';
+import ToursSection from './components/sections/ToursSection';
+
+// const title = <h3 className='card__title'>New York</h3>;
+
 function App() {
   return (
-    <div>
-      <h1>Hello Vytas, how are you today</h1>
+    <div className='App'>
+      <Header />
+      <ToursSection />
     </div>
   );
 }

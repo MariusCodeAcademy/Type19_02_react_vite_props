@@ -1,0 +1,70 @@
+/* headeris */
+
+.logo {
+  background-color: #fff;
+  padding: 10px;
+  font-weight: normal;
+}
+.logo span {
+  font-weight: bold;
+}
+
+/* nav */
+.mainNav {
+  background-color: #333;
+  color: #fff;
+}
+.navLink {
+  padding: 8px 16px;
+  display: inline-block;
+}
+.navLink:hover {
+  background-color: #797575;
+}
+
+.bands-section {
+  background-color: black;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.section__title {
+  text-align: center;
+}
+
+.section__subtitle {
+  text-align: center;
+  color: lightgray;
+  font-style: italic;
+}
+
+.grid {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 1rem;
+}
+
+/* card */
+
+.band-card {
+  display: flex;
+  flex-direction: column;
+}
+.card__info {
+  color: black;
+  background-color: white;
+  padding: 15px;
+}
+.btn {
+  border: none;
+  background-color: #333;
+  color: white;
+  border-radius: 0;
+  font-size: 16px;
+  padding: 0.6em 1.2em;
+}
+.btn:hover {
+  background-color: #626262;
+}
