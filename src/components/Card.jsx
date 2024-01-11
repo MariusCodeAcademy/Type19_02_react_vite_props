@@ -1,12 +1,6 @@
 import Btn from './ui/Btn';
 
-export default function Card1() {
-  const cardData = {
-    town: 'New York',
-    date: 'Fri 27 Nov 2016',
-    img: '/img/newyork.jpg',
-  };
-
+export default function Card({ cardData }) {
   return (
     <li className='band-card'>
       <img className='card__img' src={cardData.img} alt={cardData.town} />

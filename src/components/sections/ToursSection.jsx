@@ -1,9 +1,26 @@
-import Card1 from '../Card1';
-import Card2 from '../Card2';
-import Card3 from '../Card3';
+import Card from '../Card';
 
 export default function ToursSection() {
   const mainTitle = 'Turo datos';
+
+  const cards = [
+    {
+      town: 'New York',
+      date: 'Fri 27 Nov 2016',
+      img: '/img/newyork.jpg',
+    },
+    {
+      town: 'Parios',
+      date: 'Fri 28 Nov 2016',
+      img: '/img/paris.jpg',
+    },
+    {
+      town: 'San Fran',
+      date: 'Fri 29 Nov 2016',
+      img: '/img/sanfran.jpg',
+    },
+  ];
+
   return (
     <section className='bands-section'>
       <div className='container'>
@@ -11,9 +28,9 @@ export default function ToursSection() {
         <p className='section__subtitle'>Remember to book your tickets!</p>
 
         <ul className='unlisted grid'>
-          <Card1 />
-          <Card2 />
-          <Card3 />
+          <Card cardData={cards[0]} />
+          <Card cardData={cards[1]} />
+          <Card cardData={cards[2]} />
         </ul>
       </div>
     </section>

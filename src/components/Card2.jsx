@@ -15,7 +15,7 @@ export default function Card2() {
         <p className='cart__text'>
           Praesent tincidunt sed tellus ut rutrum sed vitae justo.
         </p>
-        <Btn />
+        <Btn txt='Pirk dabar' />
       </div>
     </li>
   );
