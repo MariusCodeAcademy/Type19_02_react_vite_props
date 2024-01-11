@@ -88,3 +88,8 @@ body {
 .btn:hover {
   background-color: #626262;
 }
+
+.service-card__icon {
+  text-align: center;
+  font-size: 25px;
+}
