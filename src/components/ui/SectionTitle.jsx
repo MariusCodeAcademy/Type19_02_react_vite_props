@@ -1,3 +1,5 @@
+import Licon from './LIcon';
+
 export default function SectionTitle(props) {
   console.log('props ===', props);
 
@@ -10,7 +12,9 @@ export default function SectionTitle(props) {
 
   return (
     <>
-      <h2 className='section__title'>{props.title}</h2>
+      <h2 className='section__title'>
+        {props.title} <Licon>lnr-magic-wand</Licon>
+      </h2>
       {/* {props.subTitle ? (
         <p className='section__subtitle'>{props.subTitle}</p>
       ) : null} */}
