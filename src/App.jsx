@@ -4,6 +4,7 @@ import Header from './components/layout/Header';
 import ToursSection from './components/sections/ToursSection';
 import ProjectsSection from './components/sections/ProjectsSection';
 import ServicesSection from './components/sections/ServicesSection';
+import CountersSection from './components/sections/CountersSection';
 
 // const title = <h3 className='card__title'>New York</h3>;
 
@@ -12,9 +13,10 @@ function App() {
     <div className='App'>
       <Header />
       {/* <MyCounter title='asasd' value='4587' /> */}
-      <ToursSection />
-      <ProjectsSection />
-      <ServicesSection />
+      <CountersSection />
+      {false && <ToursSection />}
+      {false && <ProjectsSection />}
+      {false && <ServicesSection />}
     </div>
   );
 }
